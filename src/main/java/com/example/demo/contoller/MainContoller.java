@@ -22,7 +22,6 @@ public class MainContoller {
 	@RequestMapping("/text1")
 	public BoardDTO test1() {
 		
-		
 		dto.setTitle("테스트1");
 		dto.setContent("테스트입니다");
 		return dto;
